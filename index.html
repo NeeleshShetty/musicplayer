@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Music Player</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="header">
+        <img src="spotify.png">
+        <p>NITRO<br>STUDIOS</p>
+        <p style="margin-left: 50px;" id="favourite">Favourites <i class="fa fa-heart" aria-hidden="true"></i></p>
+        <form id="searching" > 
+            
+            <input  type="text" id="search" name="search" placeholder="search"><i id="search-button" class="fa fa-search" aria-hidden="true"></i><i  id="microphone" class="fa fa-microphone" aria-hidden="true"></i>
+            
+        </form>
+
+    </section>
+    <main>
+        <section class="left-side">
+            <!-- intro part -->
+            <div class="intro">
+            <div >
+                <img id="singer-img" src="coldplay.png">
+            </div>
+            <div id="intro-content">
+                <h2>COLD PLAY</h2> <span>845K FOLLOWERS</span>
+                <h4>British Band</h4>
+                <p>Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman, drummer Will Champion and creative director Phil Harvey.
+                    Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berrymen.
+                </p>
+                <button type="button">PLAY ALL</button>
+                <button id="follow-button" type="button"><i class="fa fa-plus" aria-hidden="true"></i> Follow</button>
+                <h5>247 TRACKS|17 ALBUMN</h5>
+            </div>
+            </div>
+            <!-- musicpart -->
+            <div class="musics">
+       
+                <div class="music-content"> 
+                  <div><img  class="album-img" src="song1.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song2.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song3.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song1.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song2.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song3.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song1.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song2.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song3.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+                  <div><img  class="album-img" src="song1.png"><p>Paradise</p><span class="dots">...</span><span ><i class="fa fa-heart music-heart" aria-hidden="true"></i></span><span><i class="fa fa-plus music-plus" aria-hidden="true"></i></span></div>
+         
+         
+              </div>
+         
+             </div>
+        </section>
+        <!-- Right-side -->
+        <aside class="right-side">
+            <!-- similar artist -->
+            <div class="similar-artist">
+                <h2>Similar Artist</h2>
+                <h5>View All</h5>
+            <div class="similar-albumn">
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+                    <div class="albumn-section"><img src="imagine.png"><h5>Imagine Dragons</h5><h6>Pop Band</h6></span><span class="three-dots">...</span><span class="albumn-timing">4:44</span></div>
+
+            </div>
+
+            </div>
+            
+            <div class="recently-played">
+                <div class="heading"><h2>Recently Played</h2>
+                    <h5>View All</h5>
+                </div>
+                <div class="recent-section">
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+                        <div class="recent-music"><img src="ImagineDragonsEvolve.png"><h5 class="song-name">Believer</h5><span><i class="fa fa-play play-button" aria-hidden="true"></i><i class="fa fa-heart like-heart" aria-hidden="true"></i></span></div>
+
+                </div>
+            </div>
+        </aside>
+        
+        <footer class="play-section">
+            <div class="sec-1">
+                <img src="bones.png">
+                <span>Bones  
+                    <i class="fa fa-heart-o heart-symbol" aria-hidden="true"></i>
+                </span>
+                
+                <span id="name">Imagine Dragons</span>
+            </div>
+            <div class="sec-2">
+                <div class="top-icons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa fa-backward" aria-hidden="true"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa fa-forward" aria-hidden="true"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="bottom-icons">
+                    <span>0:00</span>
+                    <input type="range" >
+                    <span>3:34</span>
+                </div>
+            </div>
+            <div class="sec-3">
+                <div class="top-last-icons">
+                    <i class="fa-solid fa-bars bars"></i>
+                    <i class="fa fa-volume-up vol" aria-hidden="true"></i>
+                    
+                    <input type="range">
+
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
+
+
+       
+
+       
+

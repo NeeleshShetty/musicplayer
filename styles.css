@@ -1,0 +1,586 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+	
+
+::-webkit-scrollbar {
+	width: 0px;
+  }
+
+main{
+	margin: 0px;
+	padding: 0px;
+	/* width: auto; */
+	/* height: 100%; */
+	background-color:#0c1027;
+}
+
+
+/* header section */
+
+.header{
+	/* width: 100%; */
+	/* height: 80px; */
+	background-color:#0c1027 ;
+}
+.header img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 30px;
+	position: relative;
+	top:10px;
+	transition: ease-in-out 1s;
+}
+.header img:hover{
+	transform: rotate(360deg);
+}
+
+.header p{
+	display: inline-block;
+	
+	font-size: large;
+	font-weight: bold;
+	color: rgb(241, 232, 232);
+	margin-bottom: 80px;
+}
+
+#favourite{
+	position: relative;
+	bottom: 10%;
+}
+
+/* search */
+#searching{
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	width: 100px;
+	height: 30px;
+	border-radius: 10%;
+	
+}
+
+#search-button{
+	display: inline-block;
+	position: relative;
+	left:10px;
+	top: 0px;
+	/* background:linear-gradient(rgb(96, 96, 200),rgb(64, 45, 213)); */
+	border: none;
+	border-radius: 30%;
+	
+}
+form #microphone{
+	position: relative;
+	right:-140px;
+}
+#search{
+	position: relative;
+	top:20px;
+	border:none;
+	border-radius: 10px;
+	background:linear-gradient(rgb(96, 96, 200),rgb(64, 45, 213));
+	color: aliceblue;
+	padding: 5px;
+	margin-left: 2px;
+	text-align: center;
+}
+#notification-bell{
+	color: white;
+	position: relative;
+	left: 60%;
+	bottom: 7%;
+	top:0px;
+}
+
+/* left-side */
+.left-side{
+	width: 60%;
+	
+	display: inline-block;
+	/* border: 2px solid white; */
+	position: relative;
+	left: 10%;
+}
+/* introduction section */
+.intro{
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+	height: 50vh;
+	/* border: 2px solid white; */
+	
+	/* top: 50px; */
+	background-color: #141b41;
+	
+}
+#singer-img{
+	
+	position: relative;
+	top: 10%;
+	margin-left: 20px;
+	width:300px;
+	height:300px;
+	transition: ease-in-out 0.5s;
+}
+
+#singer-img:hover{
+	box-shadow: 10px 5px 5px grey ;
+}
+#intro-content{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	/* border: 2px solid white; */
+}
+.intro h2{
+	color: white;
+	position: relative;
+	top: 20%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/* border: 2px solid white; */
+}
+.intro h4{
+	color: white;
+	position: relative;
+	top: 15%;
+	/* border: 2px solid white; */
+
+}
+
+.intro p{
+	color: white;
+	position: relative;
+	top: 15%;
+	/* border: 2px solid white; */
+	font-family:Arial, Helvetica, sans-serif;
+}
+.intro span{
+	color: white;
+	position: relative;
+	left: 50%;
+	top: 15%;
+	/* border: 2px solid white; */
+
+}
+
+.intro button{
+	color: white;
+	
+	background:linear-gradient(45deg,#0c1027,#141b41) ;
+	position: relative;
+	top: 20%;
+	width: 100px;
+	height: 50px;
+	/* border: 2px solid white; */
+	transition: ease-in-out 1s;
+
+	
+}
+.intro button:hover{
+	width: 120px;
+	height: 70px;
+}
+
+.intro h5{
+	color: white;
+	/* border: 2px solid white; */
+	position: relative;
+	top: 23%;
+}
+
+/* Musics */
+.musics{
+	width: 70%;
+	height: 50vh;
+	/* border: 2px solid white; */
+	position: relative;
+	top: 2vh;
+	bottom: 0vh;
+	left: 20%;
+	/* padding: 1%; */
+	
+	/* background-color: #202439; */
+	overflow: scroll;
+}
+
+
+
+
+.music-content p {
+	color: white;
+	display: inline-block;
+	position: relative;
+	bottom: 30px;
+	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #141b41;
+}
+.music-content img{
+	position: relative;
+	bottom: 10px;
+}
+.dots{
+	color: white;
+	position: relative;
+	bottom: 3vh;
+	left: 50%;
+}
+
+.music-heart{
+	color: white;
+	position: relative;
+	left:55%;
+	bottom: 3vh;
+}
+.music-plus{
+	color: white;
+	position: relative;
+
+	bottom: 3vh;
+	
+	left:58%;
+}
+.music-heart:hover{
+	color: red;
+}
+.music-plus:hover{
+	color: lightgreen;
+}
+
+/* Right-side */
+.right-side{
+	width: 25%;
+	height: 100vh;
+	display: inline-block;
+	/* border: 2px solid white; */
+	position: relative;
+	left:10%;
+	/* bottom: 20vh; */
+	
+	
+}
+
+/* similar artist */
+.similar-artist{
+	width: 100%;
+	height: 50%;
+	/* border: 2px solid white; */
+	overflow: auto; 
+}
+
+.similar-artist h2{
+	display: inline;
+	color: white;
+	position: relative;
+	left: 5%;
+	top: 1%;
+	font-size: 1.7rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.similar-artist h5{
+	color: white;
+	display: inline;
+	position: relative;
+	left: 30%;
+}
+.similar-artist h6:hover{
+	color: lightblue;
+}
+
+.similar-albumn{
+	height: 90%;
+	/* border: 2px solid white; */
+	position: relative;
+	top: 2%;
+	overflow: auto;
+}
+
+.albumn-section{
+	height: 20%;
+	/* border: 2px solid white; */
+
+}
+.albumn-section img{
+	width: 60px;
+	height: 65px;
+}
+.albumn-section h5{
+	color: white;
+	position: relative;
+	bottom: 50%;
+	left: 1%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.albumn-section h6{
+	display: inline;
+	color: white;
+	position: relative;
+	bottom: 25%;
+	right: 27%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.three-dots{
+	color: white;
+	position: relative;
+	bottom: 50%;
+	left: 30%;
+}
+.albumn-timing{
+	color: white;
+	position: relative;
+	left: 26%;
+	bottom: 25%;
+	font-size: 0.6rem;
+
+}
+
+/* Recently-played */
+.recently-played{
+	width: 100%;
+	height: 50%;
+	/* border: 2px solid white; */
+	/* overflow: auto; */
+}
+
+.heading h2{
+	display: inline;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.7rem;
+position: relative;
+left: 5%;
+}
+
+.heading h5{
+	display: inline-block;
+	color: white;
+	position: relative;
+	left:27%
+}
+
+.recent-section{
+	/* border: 2px solid white; */
+	height: 50vh;
+	position: relative;
+	top: 3%;
+	overflow: scroll;
+}
+.recent-music{
+	
+	height: 20%;
+	/* border: 2px solid white; */
+}
+.recent-music img{
+	width: 60px;
+	height: 60px;
+}
+.song-name{
+	color: white;
+	position: relative;
+	bottom: 1.9rem;
+	left:4rem; 
+}
+.like-heart{
+	color: white;
+	position: relative;
+	left: 19rem;
+	bottom: 2.5rem;
+}
+.like-heart:hover{
+	color: red;
+}
+.play-button{
+	color: white;
+	position: relative;
+	left: 16rem;
+	bottom: 2.5rem;
+}
+.play-button:hover{
+	color: blue;
+}
+
+
+/* footer-- playsection */
+.play-section {
+	position: sticky;
+	bottom: 0;
+	background-color: #282828;
+	width:auto;
+	height: 60px;
+	width: 100%;
+	/* border: 2px solid white; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/* section 1 */
+.sec-1{
+	width: 400px;
+	/* background-color: white; */
+}
+.sec-1 img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 40%;
+
+}
+.sec-1 span{
+	color: lightgray;
+	position: relative;
+	left: 45%;
+	bottom: 50%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.heart-symbol{
+	position: relative;
+	left: 2vh;
+}
+#name{
+	color: white;
+	position: relative;
+	bottom: 20%;
+	left: 29%;
+	font-size: 0.7rem;
+	
+}
+
+/* section 2 */
+.sec-2{
+	width: 400px;
+	
+	/* border: 2px solid white; */
+
+}
+.top-icons{
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	position: relative;
+	top:4%;
+}
+.bottom-icons{
+	/* display: flex;
+	justify-content: center; */
+	color: white;
+	position: relative;
+	top: 20%;
+	left: 25%;
+}
+
+/* section 3*/
+.sec-3{
+	width: 400px;
+	
+	/* border: 2px solid white; */
+
+}
+
+.top-last-icons{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 30%;
+	color: white;
+
+}
+
+.bars{
+	position: relative;
+	right: 4%
+}
+.vol{
+	position: relative;
+	right: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* header part */
+	
+
+	form #microphone{
+		color: white;
+		right: 40%;
+	}
+	#searching{
+		left: 30%;
+	}
+	
+
+	/* intro part */
+	#singer-img{
+		width: 100px;
+		height: 200px;
+	}
+	#intro-content{
+		height: 80%;
+	}
+
+/* music part */
+	.musics{
+		left: 0;
+		width: auto;
+	}
+
+/* right-side */
+	/* similar-artist part */
+	.albumn-section{
+		margin: 5px;
+	}
+	.albumn-section h5{
+		font-size: 0.7rem;
+	}
+	.albumn-section h6{
+		font-size: 0.6rem;
+		right: 45%;
+	}
+	.three-dots{
+		left: 50%;
+		bottom: 60%;
+	}
+	.albumn-timing{
+		left: 60%;
+		bottom: 60%;
+	}
+
+	.similar-artist h5{
+		left:5%;
+	}
+
+	/* recently-played part */
+	.heading h5{
+		left: 20%;
+	}
+
+	.recent-section{
+		overflow-x: hidden;
+		
+	}
+	.play-button{
+		left: 70%;
+		
+	}
+	.like-heart{
+		left: 80%;
+	}
+
+	/* footer part */
+	.bottom-icons{
+		left: 13%;
+	}
+
+	#name{
+		left: 25%;
+	}
+}
+
+
